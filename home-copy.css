@@ -8500,13 +8500,17 @@
   }
   .home-copy-contact-link {
     gap: 0;
+    width: auto;
+    max-width: auto;
     margin-bottom: var(--dl-space-space-unit);
   }
   .home-copy-email {
     color: var(--dl-color-gray-black);
-    width: 99px;
-    padding: var(--dl-space-space-halfunit);
+    width: auto;
+    height: 28px;
+    padding: var(--dl-space-space-unit);
     font-family: Cormorant Infant;
+    line-height: 16px;
     padding-top: 0px;
     border-color: var(--dl-color-gray-white);
     border-width: 0px;
