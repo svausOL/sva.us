@@ -392,7 +392,7 @@
 .invest-link09 {
   width: var(--dl-size-size-large);
   height: auto;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
   font-family: Fira Sans;
   font-weight: 600;
@@ -400,7 +400,6 @@
   border-color: var(--dl-color-gray-white);
   border-width: 0px;
   margin-right: 0px;
-  text-decoration: none;
 }
 .invest-link10 {
   width: var(--dl-size-size-large);
@@ -525,11 +524,11 @@
   display: inline-flex;
   transition: 0.3s;
   align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
+  padding-top: 0px;
   padding-left: var(--dl-space-space-unit);
   border-radius: var(--dl-radius-radius-radius4);
   padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-halfunit);
+  padding-bottom: 0px;
 }
 .invest-dropdown-toggle06:hover {
   fill: #fff;
@@ -1010,12 +1009,6 @@
   }
   .invest-link02 {
     color: var(--dl-color-primary-100);
-    font-size: 18px;
-    font-style: normal;
-    font-family: Fira Sans;
-    font-weight: 500;
-    line-height: 27px;
-    text-decoration: none;
   }
   .invest-link03 {
     color: var(--dl-color-primary-100);
@@ -1026,12 +1019,33 @@
     line-height: 27px;
     text-decoration: none;
   }
+  .invest-text05 {
+    color: var(--dl-color-primary-100);
+    font-size: 18px;
+    font-style: normal;
+    font-family: Fira Sans;
+    font-weight: 500;
+    line-height: 27px;
+  }
   .invest-thq-dropdown {
     margin-left: 400px;
     padding-right: 0px;
   }
   .invest-dropdown-toggle {
     opacity: 1;
+  }
+  .invest-dropdown-toggle02 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .invest-text10 {
+    color: var(--dl-color-gray-black);
+  }
+  .invest-text11 {
+    color: var(--dl-color-gray-black);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
   }
   .invest-summary1 {
     gap: var(--dl-space-space-twounits);
@@ -1064,19 +1078,30 @@
   }
   .invest-link09 {
     font-size: 16px;
+    font-family: Fira Sans;
+    font-weight: 600;
     margin-left: var(--dl-space-space-fourunits);
     margin-right: var(--dl-space-space-fourunits);
+    text-decoration: underline;
   }
   .invest-link10 {
     width: var(--dl-size-size-medium);
     font-size: 16px;
+    font-style: normal;
+    font-family: Fira Sans;
+    font-weight: 600;
     margin-left: var(--dl-space-space-fourunits);
     margin-right: var(--dl-space-space-fourunits);
+    text-decoration: none;
   }
   .invest-text12 {
     font-size: 16px;
     margin-left: var(--dl-space-space-oneandhalfunits);
     margin-right: 120px;
+  }
+  .invest-dropdown-toggle06 {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .invest-dropdown-toggle08 {
     margin-top: 4px;

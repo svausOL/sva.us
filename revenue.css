@@ -520,11 +520,11 @@
   display: inline-flex;
   transition: 0.3s;
   align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
+  padding-top: 0px;
   padding-left: var(--dl-space-space-unit);
   border-radius: var(--dl-radius-radius-radius4);
   padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-halfunit);
+  padding-bottom: 0px;
 }
 .revenue-dropdown-toggle06:hover {
   fill: #fff;
@@ -826,37 +826,34 @@
   flex-direction: row;
   justify-content: flex-end;
 }
+.revenue-image01 {
+  width: 100%;
+  object-fit: cover;
+}
 .revenue-cat {
   gap: 0;
   width: 100%;
   height: 700px;
   display: flex;
-  opacity: 1;
-  margin-top: 0px;
   align-items: center;
-  margin-bottom: 0px;
   flex-direction: row;
-  background-size: cover;
   justify-content: flex-start;
-  background-image: url('https://user-images.githubusercontent.com/127581878/248566793-dfa5e629-9355-495c-9d17-9e5b1f7672fa.jpg');
 }
 .revenue-header1 {
   gap: var(--dl-space-space-oneandhalfunits);
   width: 30%;
   height: 700px;
   display: flex;
-  opacity: 0.8;
   align-self: center;
   margin-top: 0px;
   align-items: flex-start;
   margin-left: 0px;
-  padding-top: 0px;
+  padding-top: var(--dl-space-space-threeunits);
   padding-left: var(--dl-space-space-twounits);
   margin-bottom: 0px;
   flex-direction: column;
-  padding-bottom: 0px;
-  justify-content: center;
-  background-color: var(--dl-color-gray-white);
+  padding-bottom: var(--dl-space-space-threeunits);
+  justify-content: flex-start;
 }
 .revenue-caption {
   color: var(--dl-color-gray-black);
@@ -884,14 +881,13 @@
   width: 70%;
   height: 700px;
   display: flex;
-  opacity: 0.8;
   margin-top: 0px;
   align-items: flex-start;
+  padding-top: var(--dl-space-space-threeunits);
   margin-bottom: 0px;
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
-  justify-content: center;
-  background-color: var(--dl-color-gray-white);
+  justify-content: flex-start;
 }
 .revenue-caption02 {
   color: var(--dl-color-gray-black);
@@ -910,37 +906,37 @@
 .revenue-code-embed-cat {
   display: contents;
 }
+.revenue-image02 {
+  width: 100%;
+  margin-top: 150px;
+  object-fit: cover;
+}
 .revenue-eti-stanco {
   gap: 0;
   width: 100%;
   height: 700PX;
   display: flex;
-  opacity: 1;
-  margin-top: 150px;
+  margin-top: 0px;
   align-items: center;
   margin-bottom: 0px;
   flex-direction: row;
-  background-size: cover;
   justify-content: flex-start;
-  background-image: url('https://user-images.githubusercontent.com/127581878/248578877-c04610d0-9166-48ae-9495-70fd1f58c73a.jpg');
 }
 .revenue-header2 {
   gap: var(--dl-space-space-oneandhalfunits);
   width: 30%;
   height: 700PX;
   display: flex;
-  opacity: 0.8;
   align-self: center;
   margin-top: 0px;
   align-items: flex-start;
   margin-left: 0px;
-  padding-top: 0px;
+  padding-top: var(--dl-space-space-threeunits);
   padding-left: var(--dl-space-space-twounits);
   margin-bottom: 0px;
   flex-direction: column;
-  padding-bottom: 0px;
-  justify-content: center;
-  background-color: var(--dl-color-gray-white);
+  padding-bottom: var(--dl-space-space-threeunits);
+  justify-content: flex-start;
 }
 .revenue-caption03 {
   color: var(--dl-color-gray-black);
@@ -968,14 +964,13 @@
   width: 70%;
   height: 700PX;
   display: flex;
-  opacity: 0.8;
   margin-top: 0px;
   align-items: flex-start;
+  padding-top: var(--dl-space-space-threeunits);
   margin-bottom: 0px;
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
-  justify-content: center;
-  background-color: var(--dl-color-gray-white);
+  justify-content: flex-start;
 }
 .revenue-caption05 {
   color: var(--dl-color-gray-black);
@@ -994,37 +989,37 @@
 .revenue-code-embed-eti {
   display: contents;
 }
+.revenue-image03 {
+  width: 100%;
+  margin-top: 150px;
+  object-fit: cover;
+}
 .revenue-shiniih {
   gap: 0;
   width: 100%;
   height: 800px;
   display: flex;
-  opacity: 1;
-  margin-top: 150px;
+  margin-top: 0px;
   align-items: center;
   margin-bottom: 0px;
   flex-direction: row;
-  background-size: cover;
   justify-content: flex-start;
-  background-image: url('https://user-images.githubusercontent.com/127581878/248579768-3ff7a9fd-bbc4-4a1a-9efb-a48fea53ab0b.jpg');
 }
 .revenue-header3 {
   gap: var(--dl-space-space-oneandhalfunits);
   width: 30%;
   height: 800px;
   display: flex;
-  opacity: 0.8;
   align-self: center;
   margin-top: 0px;
   align-items: flex-start;
   margin-left: 0px;
-  padding-top: 0px;
+  padding-top: var(--dl-space-space-threeunits);
   padding-left: var(--dl-space-space-twounits);
   margin-bottom: 0px;
   flex-direction: column;
-  padding-bottom: 0px;
-  justify-content: center;
-  background-color: var(--dl-color-gray-white);
+  padding-bottom: var(--dl-space-space-threeunits);
+  justify-content: flex-start;
 }
 .revenue-caption06 {
   color: var(--dl-color-gray-black);
@@ -1052,14 +1047,13 @@
   width: 70%;
   height: 800px;
   display: flex;
-  opacity: 0.8;
   margin-top: 0px;
   align-items: flex-start;
+  padding-top: var(--dl-space-space-threeunits);
   margin-bottom: 0px;
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
-  justify-content: center;
-  background-color: var(--dl-color-gray-white);
+  justify-content: flex-start;
 }
 .revenue-caption08 {
   color: var(--dl-color-gray-black);
@@ -1078,37 +1072,37 @@
 .revenue-code-embed-shinih {
   display: contents;
 }
+.revenue-image04 {
+  width: 100%;
+  margin-top: 150px;
+  object-fit: cover;
+}
 .revenue-ace {
   gap: 0;
   width: 100%;
   height: 700px;
   display: flex;
-  opacity: 1;
-  margin-top: 150px;
+  margin-top: 0px;
   align-items: center;
   margin-bottom: 0px;
   flex-direction: row;
-  background-size: cover;
   justify-content: flex-start;
-  background-image: url('https://user-images.githubusercontent.com/127581878/248640608-84384a93-1e71-4a40-98b5-c24ddc7ed842.jpg');
 }
 .revenue-header4 {
   gap: var(--dl-space-space-oneandhalfunits);
   width: 30%;
   height: 700px;
   display: flex;
-  opacity: 0.8;
   align-self: center;
   margin-top: 0px;
   align-items: flex-start;
   margin-left: 0px;
-  padding-top: 0px;
+  padding-top: var(--dl-space-space-threeunits);
   padding-left: var(--dl-space-space-twounits);
   margin-bottom: 0px;
   flex-direction: column;
-  padding-bottom: 0px;
-  justify-content: center;
-  background-color: var(--dl-color-gray-white);
+  padding-bottom: var(--dl-space-space-threeunits);
+  justify-content: flex-start;
 }
 .revenue-caption09 {
   color: var(--dl-color-gray-black);
@@ -1136,14 +1130,13 @@
   width: 70%;
   height: 700px;
   display: flex;
-  opacity: 0.8;
   margin-top: 0px;
   align-items: flex-start;
+  padding-top: var(--dl-space-space-threeunits);
   margin-bottom: 0px;
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
-  justify-content: center;
-  background-color: var(--dl-color-gray-white);
+  justify-content: flex-start;
 }
 .revenue-caption11 {
   color: var(--dl-color-gray-black);
@@ -1162,37 +1155,37 @@
 .revenue-code-embed {
   display: contents;
 }
+.revenue-image05 {
+  width: 100%;
+  margin-top: 150px;
+  object-fit: cover;
+}
 .revenue-sva {
   gap: 0;
   width: 100%;
   height: 700px;
   display: flex;
-  opacity: 1;
-  margin-top: 150px;
+  margin-top: 0px;
   align-items: center;
   margin-bottom: 0px;
   flex-direction: row;
-  background-size: cover;
   justify-content: flex-start;
-  background-image: url('https://user-images.githubusercontent.com/127581878/248712032-a98ffb12-8431-47d7-9bb0-8c577ca4d99f.jpg');
 }
 .revenue-header5 {
   gap: var(--dl-space-space-oneandhalfunits);
   width: 30%;
   height: 700PX;
   display: flex;
-  opacity: 0.8;
   align-self: center;
   margin-top: 0px;
   align-items: flex-start;
   margin-left: 0px;
-  padding-top: 0px;
+  padding-top: var(--dl-space-space-threeunits);
   padding-left: var(--dl-space-space-twounits);
   margin-bottom: 0px;
   flex-direction: column;
-  padding-bottom: 0px;
-  justify-content: center;
-  background-color: var(--dl-color-gray-white);
+  padding-bottom: var(--dl-space-space-threeunits);
+  justify-content: flex-start;
 }
 .revenue-caption12 {
   color: var(--dl-color-gray-black);
@@ -1220,14 +1213,13 @@
   width: 70%;
   height: 700px;
   display: flex;
-  opacity: 0.8;
   margin-top: 0px;
   align-items: flex-start;
+  padding-top: var(--dl-space-space-threeunits);
   margin-bottom: 0px;
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
-  justify-content: center;
-  background-color: var(--dl-color-gray-white);
+  justify-content: flex-start;
 }
 .revenue-caption14 {
   color: var(--dl-color-gray-black);
@@ -1246,37 +1238,37 @@
 .revenue-code-embed2 {
   display: contents;
 }
+.revenue-image06 {
+  width: 100%;
+  margin-top: 150px;
+  object-fit: cover;
+}
 .revenue-gic {
   gap: 0;
   width: 100%;
   height: 700px;
   display: flex;
-  opacity: 1;
-  margin-top: 150px;
+  margin-top: 0px;
   align-items: center;
   margin-bottom: 0px;
   flex-direction: row;
-  background-size: cover;
   justify-content: flex-start;
-  background-image: url('https://user-images.githubusercontent.com/127581878/248670326-1b3dda77-0148-4b99-9f51-21e2dc54b815.jpg');
 }
 .revenue-header6 {
   gap: var(--dl-space-space-oneandhalfunits);
   width: 30%;
   height: 700px;
   display: flex;
-  opacity: 0.7;
   align-self: center;
   margin-top: 0px;
   align-items: flex-start;
   margin-left: 0px;
-  padding-top: 0px;
+  padding-top: var(--dl-space-space-threeunits);
   padding-left: var(--dl-space-space-twounits);
   margin-bottom: 0px;
   flex-direction: column;
-  padding-bottom: 0px;
-  justify-content: center;
-  background-color: var(--dl-color-gray-white);
+  padding-bottom: var(--dl-space-space-threeunits);
+  justify-content: flex-start;
 }
 .revenue-caption15 {
   color: var(--dl-color-gray-black);
@@ -1304,14 +1296,13 @@
   width: 70%;
   height: 700px;
   display: flex;
-  opacity: 0.7;
   margin-top: 0px;
   align-items: flex-start;
+  padding-top: var(--dl-space-space-threeunits);
   margin-bottom: 0px;
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
-  justify-content: center;
-  background-color: var(--dl-color-gray-white);
+  justify-content: flex-start;
 }
 .revenue-caption17 {
   color: var(--dl-color-gray-black);
@@ -1330,37 +1321,37 @@
 .revenue-code-embed4 {
   display: contents;
 }
+.revenue-image07 {
+  width: 100%;
+  margin-top: 150px;
+  object-fit: cover;
+}
 .revenue-dmd {
   gap: 0;
   width: 100%;
   height: 700px;
   display: flex;
-  opacity: 1;
-  margin-top: 150px;
+  margin-top: 0px;
   align-items: center;
   margin-bottom: 0px;
   flex-direction: row;
-  background-size: cover;
   justify-content: flex-start;
-  background-image: url('https://user-images.githubusercontent.com/127581878/248569576-614f3da4-f04d-4a65-80e8-6b0e6b4f97a0.jpg');
 }
 .revenue-header7 {
   gap: var(--dl-space-space-oneandhalfunits);
   width: 30%;
   height: 700px;
   display: flex;
-  opacity: 0.8;
   align-self: center;
   margin-top: 0px;
   align-items: flex-start;
   margin-left: 0px;
-  padding-top: 0px;
+  padding-top: var(--dl-space-space-threeunits);
   padding-left: var(--dl-space-space-twounits);
   margin-bottom: 0px;
   flex-direction: column;
-  padding-bottom: 0px;
-  justify-content: center;
-  background-color: var(--dl-color-gray-white);
+  padding-bottom: var(--dl-space-space-threeunits);
+  justify-content: flex-start;
 }
 .revenue-caption18 {
   color: var(--dl-color-gray-black);
@@ -1388,14 +1379,13 @@
   width: 70%;
   height: 700px;
   display: flex;
-  opacity: 0.8;
   margin-top: 0px;
   align-items: flex-start;
+  padding-top: var(--dl-space-space-threeunits);
   margin-bottom: 0px;
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
-  justify-content: center;
-  background-color: var(--dl-color-gray-white);
+  justify-content: flex-start;
 }
 .revenue-caption20 {
   color: var(--dl-color-gray-black);
@@ -1444,7 +1434,7 @@
   justify-content: flex-start;
   text-decoration: none;
 }
-.revenue-image1 {
+.revenue-image08 {
   width: auto;
   height: 27px;
   align-self: center;
@@ -1504,7 +1494,7 @@
 .revenue-call:hover {
   opacity: 0.5;
 }
-.revenue-image2 {
+.revenue-image09 {
   width: 36px;
   align-self: flex-start;
   object-fit: cover;
@@ -1596,12 +1586,6 @@
   }
   .revenue-link03 {
     color: var(--dl-color-primary-100);
-    font-size: 18px;
-    font-style: normal;
-    font-family: Fira Sans;
-    font-weight: 500;
-    line-height: 27px;
-    text-decoration: none;
   }
   .revenue-thq-dropdown {
     margin-left: 400px;
@@ -1609,6 +1593,22 @@
   }
   .revenue-dropdown-toggle {
     opacity: 1;
+  }
+  .revenue-dropdown-toggle02 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .revenue-text09 {
+    color: var(--dl-color-gray-black);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .revenue-text10 {
+    color: var(--dl-color-gray-black);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
   }
   .revenue-summary1 {
     gap: var(--dl-space-space-twounits);
@@ -1693,7 +1693,7 @@
     margin-right: 0px;
   }
   .revenue-client-results {
-    gap: var(--dl-space-space-fourunits);
+    gap: var(--dl-space-space-halfunit);
     height: auto;
     margin-top: 0px;
     align-items: flex-start;
@@ -1778,6 +1778,7 @@
     height: 700px;
     margin-top: 0px;
     margin-left: 0px;
+    padding-top: var(--dl-space-space-twounits);
     margin-right: 0px;
     padding-left: var(--dl-space-space-oneandhalfunits);
     margin-bottom: 0px;
@@ -1831,6 +1832,7 @@
     height: 950px;
     margin-top: 0px;
     margin-left: 0px;
+    padding-top: var(--dl-space-space-twounits);
     margin-right: 0px;
     padding-left: var(--dl-space-space-oneandhalfunits);
     margin-bottom: 0px;
@@ -1883,6 +1885,7 @@
     height: 700px;
     margin-top: 0px;
     margin-left: 0px;
+    padding-top: var(--dl-space-space-twounits);
     margin-right: 0px;
     padding-left: var(--dl-space-space-oneandhalfunits);
     margin-bottom: 0px;
@@ -1986,6 +1989,7 @@
     height: 700px;
     margin-top: 0px;
     margin-left: 0px;
+    padding-top: var(--dl-space-space-twounits);
     margin-right: 0px;
     padding-left: var(--dl-space-space-oneandhalfunits);
     margin-bottom: 0px;
@@ -2036,6 +2040,7 @@
     height: 750px;
     margin-top: 0px;
     margin-left: 0px;
+    padding-top: var(--dl-space-space-twounits);
     margin-right: 0px;
     padding-left: var(--dl-space-space-oneandhalfunits);
     margin-bottom: 0px;
@@ -2283,6 +2288,7 @@
     margin-bottom: 0px;
   }
   .revenue-client-results {
+    gap: var(--dl-space-space-halfunit);
     width: 100%;
     height: auto;
     padding-top: 0px;
@@ -2318,7 +2324,7 @@
     margin-bottom: 0px;
     flex-direction: column;
     padding-bottom: var(--dl-space-space-threeunits);
-    justify-content: center;
+    justify-content: flex-start;
   }
   .revenue-caption {
     color: var(--dl-color-gray-black);
@@ -2350,7 +2356,7 @@
     margin-right: 0px;
     margin-bottom: 0px;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
   }
   .revenue-caption02 {
     width: 50%;
@@ -2383,7 +2389,7 @@
     padding-top: var(--dl-space-space-twounits);
     flex-direction: column;
     padding-bottom: var(--dl-space-space-threeunits);
-    justify-content: center;
+    justify-content: flex-start;
   }
   .revenue-caption03 {
     color: var(--dl-color-gray-black);
@@ -2415,7 +2421,7 @@
     margin-right: 0px;
     margin-bottom: 0px;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
   }
   .revenue-caption05 {
     width: 50%;
@@ -2452,7 +2458,7 @@
     margin-bottom: 0px;
     flex-direction: column;
     padding-bottom: var(--dl-space-space-threeunits);
-    justify-content: center;
+    justify-content: flex-start;
   }
   .revenue-caption06 {
     width: auto;
@@ -2483,7 +2489,7 @@
     margin-right: 0px;
     margin-bottom: 0px;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
   }
   .revenue-caption08 {
     width: 40%;
@@ -2516,7 +2522,7 @@
     margin-bottom: 0px;
     flex-direction: column;
     padding-bottom: var(--dl-space-space-threeunits);
-    justify-content: center;
+    justify-content: flex-start;
   }
   .revenue-caption09 {
     width: auto;
@@ -2547,7 +2553,7 @@
     margin-right: 0px;
     margin-bottom: 0px;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
   }
   .revenue-caption11 {
     width: 50%;
@@ -2581,7 +2587,7 @@
     margin-bottom: 0px;
     flex-direction: column;
     padding-bottom: var(--dl-space-space-threeunits);
-    justify-content: center;
+    justify-content: flex-start;
   }
   .revenue-caption12 {
     width: auto;
@@ -2612,7 +2618,7 @@
     margin-right: 0px;
     margin-bottom: 0px;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
   }
   .revenue-caption14 {
     width: 50%;
@@ -2676,7 +2682,7 @@
     margin-right: 0px;
     margin-bottom: 0px;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
   }
   .revenue-caption17 {
     width: 50%;
@@ -2710,7 +2716,7 @@
     margin-bottom: 0px;
     flex-direction: column;
     padding-bottom: var(--dl-space-space-threeunits);
-    justify-content: center;
+    justify-content: flex-start;
   }
   .revenue-caption18 {
     width: auto;
@@ -2742,7 +2748,7 @@
     margin-right: 0px;
     margin-bottom: 0px;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
   }
   .revenue-caption20 {
     width: 50%;
@@ -3125,6 +3131,7 @@
   .revenue-business-development {
     width: 100%;
     height: auto;
+    margin-bottom: var(--dl-space-space-twounits);
   }
   .revenue-header {
     gap: var(--dl-space-space-unit);
@@ -3152,7 +3159,7 @@
     margin-right: 0px;
   }
   .revenue-client-results {
-    gap: var(--dl-space-space-threeunits);
+    gap: var(--dl-space-space-halfunit);
     height: auto;
     position: relative;
     margin-top: var(--dl-space-space-unit);
@@ -3184,12 +3191,14 @@
     height: auto;
     margin-top: 0px;
     margin-left: 0px;
+    padding-top: 0px;
     margin-right: 0p0x;
     padding-left: var(--dl-space-space-unit);
     margin-bottom: 0px;
     padding-right: var(--dl-space-space-unit);
     flex-direction: column;
     padding-bottom: var(--dl-space-space-threeunits);
+    justify-content: center;
   }
   .revenue-caption {
     color: rgb(53, 43, 42);
@@ -3259,7 +3268,7 @@
     gap: 0;
     width: 100%;
     height: 700px;
-    margin-top: var(--dl-space-space-threeunits);
+    margin-top: 0px;
     flex-direction: column;
   }
   .revenue-header2 {
@@ -3268,6 +3277,7 @@
     height: auto;
     margin-top: 0px;
     margin-left: 0px;
+    padding-top: 0px;
     margin-right: 0p0x;
     padding-left: var(--dl-space-space-unit);
     margin-bottom: 0px;
@@ -3345,7 +3355,7 @@
     gap: 0;
     width: 100%;
     height: 1400px;
-    margin-top: var(--dl-space-space-threeunits);
+    margin-top: 0px;
     flex-direction: column;
   }
   .revenue-header3 {
@@ -3354,6 +3364,7 @@
     height: auto;
     margin-top: 0px;
     margin-left: 0px;
+    padding-top: 0px;
     margin-right: 0p0x;
     padding-left: var(--dl-space-space-unit);
     margin-bottom: 0px;
@@ -3430,7 +3441,7 @@
     gap: 0;
     width: 100%;
     height: 700px;
-    margin-top: var(--dl-space-space-threeunits);
+    margin-top: 0px;
     flex-direction: column;
   }
   .revenue-header4 {
@@ -3439,6 +3450,7 @@
     height: auto;
     margin-top: 0px;
     margin-left: 0px;
+    padding-top: 0px;
     margin-right: 0p0x;
     padding-left: var(--dl-space-space-unit);
     margin-bottom: 0px;
@@ -3515,7 +3527,7 @@
     gap: 0;
     width: 100%;
     height: 1000px;
-    margin-top: var(--dl-space-space-threeunits);
+    margin-top: 0px;
     flex-direction: column;
   }
   .revenue-header5 {
@@ -3600,7 +3612,7 @@
     gap: 0;
     width: 100%;
     height: 700px;
-    margin-top: var(--dl-space-space-threeunits);
+    margin-top: 0px;
     flex-direction: column;
   }
   .revenue-header6 {
@@ -3685,7 +3697,7 @@
     gap: 0;
     width: 100%;
     height: 1000px;
-    margin-top: var(--dl-space-space-threeunits);
+    margin-top: 0px;
     flex-direction: column;
   }
   .revenue-header7 {
@@ -3782,7 +3794,7 @@
     flex-direction: row;
     justify-content: flex-start;
   }
-  .revenue-image1 {
+  .revenue-image08 {
     width: 27px;
   }
   .revenue-email {
@@ -3811,7 +3823,7 @@
     padding-bottom: 0px;
     background-color: var(--dl-color-gray-white);
   }
-  .revenue-image2 {
+  .revenue-image09 {
     width: 27px;
   }
   .revenue-footer {
